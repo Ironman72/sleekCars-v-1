@@ -12,7 +12,7 @@ const NavBar = () => {
 
   return (
     // main div
-    <div className='flex sticky top-0 max-w-[1140px] w-screen  px-4 p-2 mx-auto justify-between items-center h-[60px] z-10 bg-zinc-200 shadow-sm'>
+    <div className='flex sticky  top-0 max-w-[1140px] w-screen  px-4 p-2 mx-auto justify-between items-center h-[60px] z-10 bg-zinc-200 shadow-sm'>
       <h1 className='text-3xl font-cursive text-[#002559]'>Sleek Cars</h1>
       <ul className='hidden md:flex justify-between items-center'>
         <li className='p-4 text-xl cursor-pointer'>Home</li>
