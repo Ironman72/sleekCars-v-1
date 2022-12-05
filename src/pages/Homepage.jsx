@@ -3,7 +3,7 @@ import BgImage from '../assets/images/maincar.png'
 
 const Homepage = () => {
   return (
-    <section className='relative  flex'>
+    <section className='relative flex'>
       <div className='container max-w-[1140px] w-screen m-auto flex flex-col-reverse lg:flex-row mt-5 lg:mt-18 gap-12 h-[90vh]  '>
         <div className='flex flex-1 flex-col items-center lg:items-start justify-center  mb-10 md:max-h-[500px] md:w-[500px] mt-5'>
           <h1 className='text-3xl text-black/80 mb-3 lg:mb-5 w-full lg:text-4xl font-semibold lg:max-w-md p-2 justify-start  lg:text-left  text-center lg:leading-snug'>Search and find
