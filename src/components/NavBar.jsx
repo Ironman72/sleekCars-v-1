@@ -13,8 +13,8 @@ const NavBar = () => {
 
   return (
     // main div
-    <div className='flex sticky top-0 max-w-[1140px] w-screen  px-4 p-2 mx-auto justify-between items-center shadow-sm'>
-      <img src={Logo} alt='logo-image' />
+    <div className='flex sticky top-0 max-w-[1140px] w-screen mt-5 px-4 p-2 mx-auto justify-between items-center h-[60px] z-10'>
+      <h1 className='text-4xl'>Sleek Cars</h1>
       <ul className='hidden md:flex justify-between items-center'>
         <li className='p-4 text-xl cursor-pointer'>Home</li>
         <li className='p-4 text-xl cursor-pointer'>Services</li>
@@ -30,8 +30,9 @@ const NavBar = () => {
         {/* <AiOutlineMenu size={22} /> */}
       </div>
       {/* mobile nav bar goes here according to device using state */}
-      <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full ease-in-out duration-500 scroll-smooth' : 'fixed  left-[-100%]'}>
-        <ul className='pt-[90px] '>
+      <div className={nav ? 'fixed left-0 top-0 bg-white w-[80%] h-full ease-in-out duration-500 scroll-smooth' : 'fixed  left-[-100%]'}>
+      <h1 className='text-4xl mt-10'>Sleek Car Rental's</h1>
+        <ul className='pt-[50px] '>
           <li className='p-4 text-xl cursor-pointer'>Home</li>
           <li className='p-4 text-xl cursor-pointer'>Services</li>
           <li className='p-4 text-xl cursor-pointer'>About Us</li>
