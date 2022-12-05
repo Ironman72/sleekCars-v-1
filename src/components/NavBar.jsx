@@ -1,5 +1,4 @@
 import { React, useState } from 'react';
-import Logo from '../assets/images/logo.png';
 import { BiPhoneCall } from 'react-icons/bi';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 
