@@ -1,5 +1,6 @@
 import React from 'react';
-import { RiWhatsappFill } from 'react-icons/ri'
+import { RiWhatsappFill } from 'react-icons/ri';
+import { BiPhoneCall } from 'react-icons/bi';
 
 const Contact = () => {
   return (
@@ -14,14 +15,27 @@ const Contact = () => {
           <RiWhatsappFill size={30} className='text-green-300' />
           <span className='px-2'>Message us on Whatsapp</span>
         </button>
+        {/* Address Div */}
+        <div className='sm:justify-center sm:w-[50%] mx-auto'>
+          <h1 className='mt-7 text-gray-700 text-center'>Head Office: H.No:8-1-398, Paramount Hills, Tolichowky, Hyderabad - 500008 / Branch Office: Vivekanandapuri Colony, Karimnagar, Telangana.</h1>
+          <div className='flex items-center justify-center mt-5'>
+            <h1 className='text-gray-700 font-semibold mr-5'>Call Us</h1>
+            <BiPhoneCall size={20} className='text-blue-500 mr-2' />
+            <p className='text-gray-700 font-semibold'>+91 9876543210</p>
+          </div>
+        </div>
+        {/* Office Timings */}
+        <div>
+          
+        </div>
         {/* maps */}
         <div className='relative justify-center items-center mt-10'>
           <div class="w-full">
             <h1>Open Map to Get Location</h1>
-            <iframe style={{width:'100%', height:'500px'}} src="https://maps.google.com/maps?q=Paramount%20Hills,%20Tolichowky,%20Hyderabad&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+            <iframe style={{ width: '100%', height: '400px' }} src="https://maps.google.com/maps?q=Paramount%20Hills,%20Tolichowky,%20Hyderabad&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
             </iframe>
-            
-            
+
+
           </div>
         </div>
       </div>
