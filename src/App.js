@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from './components/NavBar';
 import About from './pages/About';
+import Contact from './pages/Contact';
 import Homepage from './pages/Homepage';
 import Services from './pages/Services';
 
@@ -12,6 +13,7 @@ const App = () => {
         <Homepage />
         <Services/>
         <About/>
+        <Contact/>
       </div>
     </>
   )

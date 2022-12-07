@@ -8,11 +8,11 @@ const Services = () => {
   return (
     <>
       {/* main div */}
-      <div className='max-w-[1140px] w-screen h-full  mt-5 mx-auto overflow-auto  overscroll-auto'>
+      <div className='max-w-[1140px] w-screen   mt-5 mx-auto overflow-auto  overscroll-auto  border-t-2'>
         {/* title */}
         <h1 className='text-center text-3xl mt-2 text-[#002559] font-bold mb-5'>Services We Offer</h1>
         {/* grid Container */}
-        <div className='sm:grid sm:grid-cols-2  justify-center gap-3'>
+        <div className='sm:grid sm:grid-cols-2  justify-center gap-3 overscroll-auto'>
 
           {/*  */}
           {/* First Image */}

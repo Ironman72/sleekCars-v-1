@@ -1,54 +1,31 @@
-import React from 'react'
+import React from 'react';
+import { RiWhatsappFill } from 'react-icons/ri'
 
 const Contact = () => {
   return (
-    <div><section className='max-w-[1140px] w-screen h-[90vh] mx-auto'>
-      <h1 className='text-center text-4xl mt-2 text-[#002559] font-bold'>Services We Offer</h1>
-      {/* First Image */}
-      <div className='md:grid md:grid-cols-2 mt-10 p-2 gap-4'>
-        {/* image */}
+    <div className='max-w-[1140px] mx-auto mt-10 h-[100vh] border-t-2 bg-slate-50'>
+      {/* title */}
+      <h1 className='text-center mt-5 text-3xl text-[#002559] font-semibold mb-5'>Contact us</h1>
+      <div className='text-center items-center justify-center'>
 
-
-        <div className='md:h-full md:w-full'>
-          <img src={RentCar} className='rounded-tl-[100px] rounded-br-[100px]' />
+        <h1 className='text-xl text-[#022559] font-medium'>BETTER YET, SEE US IN PERSON!</h1>
+        <p className='text-gray-700 font-medium leading-relaxed mt-5'>We love our customers, so feel free to visit during normal business hours</p>
+        <button class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded-md inline-flex items-center mt-5 sm:mt-10">
+          <RiWhatsappFill size={30} className='text-green-300' />
+          <span className='px-2'>Message us on Whatsapp</span>
+        </button>
+        {/* maps */}
+        <div className='relative justify-center items-center mt-10'>
+          <div class="w-full">
+            <h1>Open Map to Get Location</h1>
+            <iframe style={{width:'100%', height:'500px'}} src="https://maps.google.com/maps?q=Paramount%20Hills,%20Tolichowky,%20Hyderabad&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+            </iframe>
+            
+            
+          </div>
         </div>
-        {/* text */}
-        <div className='items-center justify-center'>
-          <h1 className='text-3xl font-cursive text-[#002559] text-center md:text-start mb-2'>Rent a car</h1>
-          <p>Book a Car with <span className='text-[#002559] font-bold'>Sleek Cars</span> along with a Professional Driver's We Have 100% Professionals Drivers with 5+ Years Experience in Driving</p>
-        </div>
-
-
-        <br />
-        {/* first image ends here */}
-        <div>
-        </div>
-
-        {/* second image */}
-        <div className='md:h-full md:w-full mt-5'>
-          <img src={SelfCar} className='rounded-tl-[100px] rounded-br-[100px]' />
-        </div>
-        <div className='items-center space-y-reverse mt-5'>
-          <h1 className='text-3xl font-cursive text-[#002559] text-center md:text-start mb-2'>Book Self Drive</h1>
-          <p>Book a Car with Sleek Cars along with a Professional Driver <span className='text-[#002559] font-bold mr-2'>Cheap</span>We Have 100% Professionals Drivers 5+ Years Experience in Driving</p>
-        </div>
-
-
-        {/* third image */}
-        <div className='md:h-w-full md:w-full mt-5'>
-          <img src={CarPool} className='rounded-tl-[100px] rounded-br-[100px]' />
-        </div>
-        {/* text */}
-        <div className='items-center mt-5'>
-          <h1 className='text-3xl font-cursive text-[#002559] text-center md:text-start mb-2'>Rent a car</h1>
-          <p>Book a Car with <span className='text-[#002559] font-bold'>Sleek Cars</span> along with a Professional Driver's We Have 100% Professionals Drivers with 5+ Years Experience in Driving</p>
-        </div>
-
       </div>
-
-
-
-    </section></div>
+    </div>
   )
 }
 

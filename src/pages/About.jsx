@@ -2,9 +2,9 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className='justify-center max-w-[1140px] h-screen mx-auto mt-10'>
+    <div className='justify-center max-w-[1140px] border-t-2  mx-auto mt-10'>
       {/* Main Paragraph */}
-      <div className='w-full'>
+      <div className='w-full mt-5'>
         <h1 className='text-center text-3xl font-bold text-[#002559]'>About us</h1>
         <div className='flex items-center justify-center p-3 mx-auto'>
           <h1 className='text-center sm:text-2xl text-xl text-gray-700'>
@@ -16,9 +16,9 @@ const About = () => {
       {/* Cards Main Div or container */}
       <div className='sm:flex gap-8 mx-auto  justify-center'>
         {/* card One */}
-        <div class="max-w-sm bg-white rounded mt-3 shadow-xl">
-          <div class="px-6 py-4">
-            <div class="font-bold text-2xl text-[#002559] mb-2 text-center ">Services</div>
+        <div className="max-w-sm bg-white rounded mt-3 shadow-xl">
+          <div className="px-6 py-4">
+            <div className="font-bold text-2xl text-[#002559] mb-2 text-center ">Services</div>
             <p class="text-gray-700 text-base leading-relaxed">
               Sleek Cars creates the platform for Passengers or Customers and Car Owners & Drivers.
               Sleek Cars has planned to diversify it’s mode of operation in various fields Car Rentals which include's
@@ -29,36 +29,36 @@ const About = () => {
               <li>Car Pool</li>
             </ul>
             <div className='flex items-center justify-center'>
-              <button class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mt-5">
+              <button className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mt-5">
                 Learn More
               </button>
             </div>
           </div>
         </div>
         {/* Card 2 */}
-        <div class="max-w-sm bg-white rounded mt-3 shadow-xl">
-          <div class="px-6 py-4">
-            <div class="font-bold text-2xl text-[#002559] mb-2 text-center">Mission</div>
-            <p class="text-gray-700 text-base leading-relaxed">
+        <div className="max-w-sm bg-white rounded mt-3 shadow-xl">
+          <div className="px-6 py-4">
+            <div className="font-bold text-2xl text-[#002559] mb-2 text-center">Mission</div>
+            <p className="text-gray-700 text-base leading-relaxed">
               To provide excellent customer service and expertise based on experience and delivery mechanisms aligned with assurances as we believe in the value of relationship along with synergetic growth with our Sleek Partners (Car Owners, Drivers)  & Sleek Customers.
             </p>
             <div className='flex items-center justify-center'>
-              <button class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mt-5">
+              <button className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mt-5">
                 Learn More
               </button>
             </div>
           </div>
         </div>
         {/* Card Three */}
-        <div class="max-w-sm bg-white rounded mt-3 shadow-xl">
-          <div class="px-6 py-4">
-            <div class="font-bold text-2xl text-[#002559] mb-2 text-center">Vision</div>
-            <p class="text-gray-700 text-base leading-relaxed">
+        <div className="max-w-sm bg-white rounded mt-3 shadow-xl">
+          <div className="px-6 py-4">
+            <div className="font-bold text-2xl text-[#002559] mb-2 text-center">Vision</div>
+            <p className="text-gray-700 text-base leading-relaxed">
               To grow and expand our Car Rental services in whole Telangana along with the Customer base and develop a cost effective service in the Telangana market through motivated workforce and quality disposition.
             </p>
 
             <div className='flex items-center justify-center'>
-              <button class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mt-5">
+              <button className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mt-5">
                 Learn More
               </button>
             </div>
