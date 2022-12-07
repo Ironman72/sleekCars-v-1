@@ -27,6 +27,7 @@ const Homepage = () => {
             <p className='text-xl md:2xl  font-light text-gray-600 underline ml-2 cursor-pointer'>Here</p>
           </div>
         </div>
+        <h1>Work on Office timings on Contact us page</h1>
       </div>
     </section>
   )
