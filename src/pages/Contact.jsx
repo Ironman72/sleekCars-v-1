@@ -4,7 +4,7 @@ import { BiPhoneCall } from 'react-icons/bi';
 
 const Contact = () => {
   return (
-    <div className='max-w-[1140px] mx-auto mt-10 h-[100vh] border-t-2 bg-slate-50'>
+    <div className='max-w-[1140px] mx-auto mt-10 h-[100vh] border-t-2 bg-slate-50 overflow-hidden'>
       {/* title */}
       <h1 className='text-center mt-5 text-3xl text-[#002559] font-semibold mb-5'>Contact us</h1>
       <div className='text-center items-center justify-center'>
@@ -30,12 +30,10 @@ const Contact = () => {
         </div>
         {/* maps */}
         <div className='relative justify-center items-center mt-10'>
-          <div class="w-full">
-            <h1>Open Map to Get Location</h1>
-            <iframe style={{ width: '100%', height: '400px' }} src="https://maps.google.com/maps?q=Paramount%20Hills,%20Tolichowky,%20Hyderabad&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+          <div class="w-full h-screen">
+            <h1>Click On Map to Get Location</h1>
+            <iframe title='map' style={{ width: '100%', height: '400px' }} src="https://maps.google.com/maps?q=Paramount%20Hills,%20Tolichowky,%20Hyderabad&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
             </iframe>
-
-
           </div>
         </div>
       </div>
